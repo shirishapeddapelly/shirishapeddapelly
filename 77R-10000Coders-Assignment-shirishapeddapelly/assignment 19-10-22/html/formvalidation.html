@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form validation</title>
+    <link rel="stylesheet" href="../css/formvalidation.css" />
+  </head>
+  <body>
+    <h5>
+      Ready to get a well playing IT job?Awesome
+      <br />Attend our job-guaranteed, 6-month full-stack developer training
+      program. We will refund every single rupee back to you, if you do not get
+      a job in 6 months.
+    </h5>
+
+    <!-- form for creating new contact -->
+    <form class="all" id="new-contact-form">
+      <div class="container">
+        <label for="name"><b>Name</b></label>
+        <br />
+        <input
+          type="text"
+          placeholder="Enter the name"
+          name="name"
+          id="name"
+          required
+        />
+        <br />
+        <br />
+        <label for="name"><b>Address</b></label>
+        <br />
+        <input
+          type="text"
+          placeholder="Enter the address"
+          name="name"
+          id="address"
+          required
+        />
+        <br />
+        <label for="email"><b>Email</b></label>
+        <br />
+        <input
+          type="email"
+          placeholder="enter your Email address"
+          class="input"
+          id="email"
+        />
+        <p id="emailErr" style="color: red"></p>
+        <label for="number"><b>Phone number</b></label>
+        <br />
+        <input
+          type="tel"
+          id="number"
+          name="phone"
+          placeholder="enter phone number"
+          pattern="[7-9]{1}[0-9]{9}"
+          required
+        />
+        <br />
+        <label for="degree">degree details</label>
+        <br />
+        <select
+          name="datails"
+          type="text"
+          placeholder="enter the degree details"
+          id="details"
+        >
+          <option value="bsc">bsc</option>
+          <option value="bcom">bcom</option>
+          <option value="csc">csc</option>
+          <option value="eee">eee</option>
+          <option value="others">others</option>
+          <option placeholder="-select">-select-</option>
+        </select>
+        <br />
+        <label for="date"><b>year of pass</b></label>
+        <br />
+        <input
+          type="date"
+          placeholder="Enter your pass out year"
+          id="date"
+          required
+        />
+        <br />
+        <label for="present status"><b>present status</b></label>
+        <br />
+        <select
+          name="present status"
+          type="text"
+          placeholder="enter present status"
+          id="status"
+        >
+          <option value="student">student</option>
+          <option value="working">working</option>
+          <option value="looking for a jod">looking for a job</option>
+          <option value="others">others</option>
+          <option placeholder="-select">-select-</option>
+        </select>
+        <h4>please share questions if you have any?</h4>
+        <div>
+          <textarea rows="5" cols="100"></textarea>
+        </div>
+        <br />
+        <center>
+          <button type="submit" class="button">submit</button>
+        </center>
+      </div>
+    </form>
+    <script src="../javascript/form validation(10kcoders).js"></script>
+  </body>
+</html>

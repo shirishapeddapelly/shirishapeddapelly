@@ -1,0 +1,27 @@
+html,
+body {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 25px;
+}
+.container {
+  width: 350px;
+}
+
+#inputField {
+  width: 250px;
+  height: 30px;
+}
+#addToDo {
+  height: 30px;
+  width: 40px;
+}
+
+.to-dos {
+  margin-top: 25px;
+}
+.paragraph-styling {
+  margin: 0;
+  cursor: pointer;
+  font-size: 20px;
+}

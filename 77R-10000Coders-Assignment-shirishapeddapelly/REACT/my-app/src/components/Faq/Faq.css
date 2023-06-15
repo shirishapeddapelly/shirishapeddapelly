@@ -1,0 +1,15 @@
+#id10 {
+  position: relative;
+  left: 400px;
+  z-index: 1;
+}
+#id1,
+h1,
+h2 {
+  text-align: center;
+}
+#id11 {
+  background-color: slategrey;
+  color: white;
+  padding: 30px;
+}

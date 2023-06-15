@@ -1,0 +1,35 @@
+#id8 {
+  display: grid;
+  padding: 100px;
+  gap: 40px;
+}
+.id8class1 {
+  grid-column: 1/2;
+}
+.id8class2 {
+  grid-column: 2/3;
+}
+.id8class3 {
+  grid-column: 3/4;
+}
+.id8class4 {
+  grid-column: 1/2;
+}
+.id8class5 {
+  grid-column: 2/3;
+}
+.id8class6 {
+  grid-column: 3/4;
+}
+
+.imagea {
+  width: 200px;
+  height: 200px;
+}
+#id9 {
+  text-align: center;
+}
+.imagea1 {
+  width: 100px;
+  height: 100px;
+}

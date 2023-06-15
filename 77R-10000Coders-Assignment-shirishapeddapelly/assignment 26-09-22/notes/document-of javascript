@@ -1,0 +1,52 @@
+        ::JAVASCRIPT::
+INTRODUCTION:Webpage developers have taditionally,used HTML language to create web pages .HTML create "FLAT"or"STATIC"web documents that dont allow the users to intract with them in any significant way.
+for example:when we create a simple button by using html,but when we click on that button it gives no responce .
+so,to take some kind of responce from that button (or)simply make these static web pages active ,we use scripting languages.
+      JAVASCRIPT is the worlds most popular language.It was released by Netscape and Sun microsystems in 1995.
+	*javascript is derived from java but,it is not same thing as java.Java is pure object-oriented,high-level progarmming language,in which user can develop any sort of application.Javascript is integrated programming language with object-oriented capabilities that allows you to build interactivity into static html pages.
+    *Javascript has a strength is that expensive development tools are not usually reguired.we can start with simple text editor such as notepad.	
+	*javascript is case-sensitive language .Which means that language keywords,variables,function names,any other identifiers must always be typed with a consistent capitalisation of letters.	
+----------------------------------------------------------------------------------------------------------------------------------------
+COMPILER AND INTERPRETATION :-
+*Compiler:-
+      A Compiler is special type of program that transform the source code written in programming languagein to mechine code once.
+	If the source code has errors then the compiler will not able to do the task.errors that limit the compiler in understanding a program  are called syntax errors.  
+	The work of a compiler is not only translate the code but also locate the syntax errors in the program .Unless the syntantical error is rectified,the source code cannot be converted into machine code.
+	
+*INTERPRETER:-
+     Like the compiler interpreter also translates the source code to mechine code .
+	 The compiler translate instructions written in high level programming language directly into machine language.but,the interpreter translates the instructions of high languge code by taking one statement at a time,executes it and then takes next statement and repeates the process untill the entire program is translated.
+
+DIFFERENCES BETWEEN INTERPRETER AND COMPILER:-
+INTERPRETER:-
+*Translate program one statement at a time.
+*It takes less amount of time to analyze the source code but the ovarall execution time is slower.
+*Continues translating the program untill the first error is met ,in which case it stops.Hence debugging is easy.
+*It requires less memory space.
+COMPILER:-
+*scans the entire program and translate it as a whole into machine code.
+*It takes large amount of time to analyse the source code but ovarall execution time is comparatively faster.
+*It generates the error message only after scanning the whole program .Hence debugging is coaparatively	 hard.
+*It requires more memory space.
+----------------------------------------------------------------------------------------------------------------------------------------
+WHY HTML/css IS USED?
+HTML provides the structure of the page, CSS the layout, for a variety of devices. Along with graphics and scripting, HTML and CSS are the basis of building Web pages and Web Applications. 
+-------------------------------------------------------------------------------------------------------------------------------------
+How many languages are there?
+
+we have two languages. They are 
+-Scripting language.
+-Programming language.
+What is the difference b/w programming language and scripting language?
+A programming language is a type of computer language that consists of a set of instructions for communicating with computers.
+ A scripting language is a kind of programming language that is used to automate the execution of operations in a runtime environment. Most programming languages are compiled
+---------------------------------------------------------------------------------------------------------------
+				 :Mechine readable language:
+				 
+	*Machine code, also known as machine language, is the elemental language of computers. It is read by the computer's central processing unit (CPU), is composed of digital binary numbers and looks like a very long sequence of zeros and ones.			 
+	*Ultimately, the source code of every human-readable programming language must be translated to machine language by a compiler or an interpreter, because binary code is the only language that computer hardware can understand.
+	*Each CPU has its own specific machine language. The processor reads and handles instructions, which tell the CPU to perform a simple task. Instructions are comprised of a certain number of bits. If instructions for a particular processor are 8 bits, for example, the first 4 bits part (the opcode) tells the computer what to do and the second 4 bits (the operand) tells the computer what data to use.
+  
+
+------------------------------------------------------------------------------------------------------------------	+
+	

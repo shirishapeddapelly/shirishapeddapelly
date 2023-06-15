@@ -1,0 +1,17 @@
+section {
+  background-color: snow;
+  padding: 30px;
+}
+h5 {
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+#new-contact-form {
+  background-color: antiquewhite;
+  padding: 50px;
+}
+.button {
+  background-color: blueviolet;
+  color: black;
+}

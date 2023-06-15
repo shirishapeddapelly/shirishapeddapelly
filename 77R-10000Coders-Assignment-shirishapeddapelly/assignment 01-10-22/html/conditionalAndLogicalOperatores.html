@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ConditionalAndlogicalOperators</title>
+  </head>
+  <body>
+    ////NOTES//// //Differences blw == and === // The == operator does the
+    typeconversion of the operands before comparison, whereas the ===
+    operatorcompares the values as well as the data types of the operands *The
+    == and === operands are used to compare if two values are equal. ->The ==
+    operand loosely compares two values, thus it can be used in cases where the
+    data type of the operand isn't important. For e.g., imagine a form entry
+    where you've asked students their roll no. It is possible that some will
+    enter it in string form and some in number form. In such cases, we can use
+    the == operator to verify the data without the database. ->The === operand
+    strictly compares two values, thus it is used in the places where the data
+    type of the operand is important. Imagine an online coding contest, where an
+    answer is a number in string format. In that case, we'll use the ===
+    operator to compare and validate answers.
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    //NaN property in js// *NaN is a property of the global object. In other
+    words, it is a variable in global scope. The initial value of NaN is
+    Not-A-Number — the same as the value of Number. ->If NaN is involved in any
+    mathematical operation, the result is also NaN.When NaN is one of the
+    operands of any relational comparison (>, <, >=, <=),the result is always
+    false. NaN compares unequal (via ==, !=, ===, and !==)to any other value —
+    including to another NaN value. ->The initial value of NaN is Not-A-Number —
+    the same as the value of Number.NaN. In modern browsers, NaN is a
+    non-configurable, non-writable property.
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    ////Call by Value Vs Call by Reference in JavaScript //// *Call by Value:
+    Suppose there is a variable named “a”. Now, we store a primitive
+    value(boolean, integer,float, etc) in the variable “a”. Let us store an
+    integer value in “a”, Let a=5. Now the variable “a” stores 5 and has an
+    address location where that primitive value sits in memory. Now, suppose we
+    copy the value of “a” in “b” by assignment (a=b). Now, “b” points to a new
+    location in memory, containing the same data as variable “a”. Thus, a=b=5
+    but both points to separate locations in memory. where 2 variables become
+    the same by copying the value but in 2 separate spots in the memory.
+    *Features of call by value: Function arguments are always passed by value.
+    It copies the value of a variable passed in a function to a local variable.
+    Both these variables occupy separate locations in memory. Thus, if changes
+    are made in a particular variable it does not affect the other one. Call by
+    reference: Let’s say, we have an object stored in the variable “a”. The
+    variable stores the location or the address where the object lives. Now we
+    set b=a. Now that new variable “b” instead of pointing to a new location in
+    the memory, points to the same location where “a” does. No new object is
+    created, no copy is created. Both the variables point to the same object.
+    This is like having 2 names. This is call by reference. It behaves quite
+    differently from by value. All objects interact by reference. *Features of
+    By reference: In JavaScript, all objects interact by reference. If an object
+    is stored in a variable and that variable is made equal to another variable
+    then both of them occupy the same location in memory. Changes in one object
+    variable affect the other object variable.//
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    4)HOW TO CONVERT THE STRING OF ANY BASE TO INTEGER IN JAVASCRIPT? In
+    JavaScript parseInt() function (or a method) is used to convert the passed
+    in string parameter or value to an integer value itself. This function
+    returns an integer of base which is specified in second argument of
+    parseInt() function. SYNTAX: parseInt(string_value, base)
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    ///variable typing/// the type of a variable is determined only when a value
+    is assigned and can change as the variable appears in different contexts.
+    Usually, you don’t have to worry about the type; JavaScript figures out what
+    you want and just does it.
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+    <script src="../javascript/conditionalAndLogicalOperators.js"></script>
+  </body>
+</html>

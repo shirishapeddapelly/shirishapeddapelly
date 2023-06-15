@@ -1,0 +1,68 @@
+#parent{
+    display:flex;
+    justify-content: center;
+    padding: 50px;
+}
+.child1{
+    color:white;
+    background-color:royalblue;
+    height:300px;
+    width:5000px;
+
+}
+.image1{
+    height:300px;
+    width:300px;
+}
+.child2{
+    background-color: blue;
+    height:300px;
+    width:5000px;
+}
+#parent2{
+    display:flex;
+    justify-content: center;
+}
+#parent3{
+    display: flex;
+    justify-content: center;
+} 
+#parent4{
+    background-color: blue;
+    color:white;
+}
+.child5{
+    display: flex;
+    justify-content: flex-end;
+}
+#parent6{
+    display: flex;
+    justify-content: center;
+}
+.image2{
+    height:400px;
+    width:400px;
+}
+#parent7{
+    background-color: blue;
+    color: bisque;
+}
+#parent8{
+    display:flex;
+    justify-content: center;
+}
+.image3{
+    display:flex;
+}
+button{
+    style:center;
+    background-color: red;
+    width:200px;
+    height:50px;
+}
+#parent9{
+    color:beige;
+    background-color: blue;
+    width:1500px;
+    height:200px;
+}

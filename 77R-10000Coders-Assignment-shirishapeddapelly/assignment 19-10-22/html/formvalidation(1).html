@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form validation</title>
+    <link rel="stylesheet" href="../css/formvalidation(1).css" />
+  </head>
+  <body>
+    <section>
+      <div>
+        <form id="form">
+          <div>
+            <h5>
+              Ready to get a well playing IT job?Awesome <br />Attend our
+              job-guaranteed, 6-month full-stack developer training program. We
+              will refund every single rupee back to you, if you do not get a
+              job in 6 months.
+            </h5>
+          </div>
+          <div>
+            <label for="name">NAME</label>
+            <br>
+            <input type="text" name="name" id="name"  placeholder="enter your name"/>
+            <p id="nameErr"></p>
+          </div>
+          <div>
+            <label for="address">ADDRESS</label>
+            <br>
+            <input type="text" name="address" id="address" placeholder="enter your address" />
+            <p id="addressErr"></p>
+          </div>
+          </div>
+          <div>
+            <label for="email">EMAIL ID</label>
+            <br>
+            <input type="email" name="email" id="email" placeholder="enter your email" />
+            <p id="emailErr"></p>
+          </div>
+          <div>
+            <label for="phonenumber">PHONE NUMBER<label>
+              <br>
+            <input type="tel" id="phonenumber" placeholder="enter your number"/>
+            <p id="phoneErr"></p>
+          </div>
+          <div>
+            <label for="details">DEGREE DETAILS</label>
+            <br>
+            <select id="details" name="details">
+              <option value="-Select-">-Select-</option>
+              <option >Bsc</option>
+              <option >bcom</option>
+              <option >mba/mca</option>
+              <option>btech</option>
+              <option>others</option>
+            </select>
+            <p id="detailsErr"></p>
+          </div>
+          <div></div>
+          <label for="yearofpass">YEAR OF PASSOUT</label>
+          <br>
+          <select id="yearofpass" name="yearofpass">
+            <option value="-select-">-Select-</option>
+            <option>2022</option>
+            <option>2021</option>
+            <option>2020</option>
+            <option>2019</option>
+            <option>2018</option>
+            <option>2017</option>
+            <option>2016</option>
+            <option>2015</option>
+            <option>still pursuing</option>
+          </select>
+          <p id="yearErr"></p>
+          <div>
+            <label for="presentstatus">PRESENT EDUCTIONAL STATUS</label>
+            <br>
+            <select id="presentstatus" name="presentstatus">
+              <option value="select">-Select-</option>
+              <option >Student</option>
+              <option >Working</option>
+              <option>Looking for a job</option>
+            </select>
+            <p id="statusErr"></p>
+          </div>
+          <div>
+            <label for="textarea">Please share questions if you have any?</label>
+            <br>
+            <textarea
+              name="textarea"
+              id="textarea"
+              cols="80"
+              rows="5"
+              placeholder="if you have any questions ask here..."
+            ></textarea>
+            <p id="textErr"></p>
+          </div>
+          <button type="submit" class="button">submit</button>
+        </form>
+      </div>
+    </section>
+    
+    <script src="../javascript/formvalidation(1).js"></script>
+  </body>
+</html>

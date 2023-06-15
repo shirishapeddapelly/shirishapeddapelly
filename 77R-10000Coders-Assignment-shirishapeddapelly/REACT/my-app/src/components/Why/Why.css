@@ -1,0 +1,38 @@
+#id4 {
+  display: grid;
+  padding: 20px;
+  gap: 50px;
+  text-align: center;
+}
+.image1 {
+  height: 100px;
+  width: 100px;
+}
+.id4class {
+  grid-column: 1/2;
+}
+.id4class0 {
+  grid-column: 2/3;
+}
+.id4class1 {
+  grid-column: 3/4;
+}
+.id4class2 {
+  grid-column: 1/2;
+}
+.id4class3 {
+  grid-column: 2/3;
+}
+.id4class4 {
+  grid-column: 3/4;
+}
+.id4class5 {
+  position: relative;
+  left: 200px;
+  z-index: 1;
+}
+.id4class6 {
+  position: relative;
+  left: 350px;
+  z-index: 1;
+}
